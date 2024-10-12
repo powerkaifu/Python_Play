@@ -6,7 +6,7 @@
 
 ## Week2
 
-流程控制（if-else，for 和 while 迴圈，break，continue），函式與模組，參數傳遞與返回值，內建模組的使用（如 math 和 random）
+流程控制（if-else，for 和 while 迴圈，break，continue）
 
 ## Week3
 
@@ -14,4 +14,4 @@
 
 ## Week4
 
-function 函數操作
+函式與模組，參數傳遞與返回值，內建模組的使用（如 math 和 random）
