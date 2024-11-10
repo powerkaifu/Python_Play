@@ -15,3 +15,21 @@
 ## Week4
 
 函式與模組，參數傳遞與返回值，內建模組的使用（如 math 和 random）
+
+# 10 月 18 日 ~ 11 月 14 日
+
+## Week1
+
+函式程式設計(一)
+
+## Week2
+
+函式程式設計(二)
+
+## Week3
+
+try-except-else-finally
+
+## Week4
+
+module and package 使用

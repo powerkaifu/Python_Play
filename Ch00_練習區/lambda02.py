@@ -61,3 +61,21 @@ lst = [
 
 result = sorted(lst, key = lambda x: x[1])
 print(result)
+
+# 嵌套 map() 和 filter()
+## 給定一個數字列表，使用 lambda 結合 filter() 篩選出偶數，並使用 map() 將它們的值加倍。
+
+lst = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+result = list(map(lambda x: x * 2, filter(lambda x: x % 2 == 0, lst)))
+print(result)
+
+## 也可以用串列生成式達成
+result = [x * 2 for x in lst if x % 2 == 0]
+print(result)
+"""
+串列生成式：結構清楚，適合簡單的邏輯判斷和轉換，Pythonic（符合 Python 習慣）。
+map() / filter()：適合運用高階函數風格，尤其在搭配 lambda 函數時表現優秀。
+
+串列生成式較直觀，適合初學者或希望程式碼可讀性高的情境。
+map() / filter() 讓你的程式風格更加函數式，對熟悉高階函數概念的人來說較為自然。
+"""
